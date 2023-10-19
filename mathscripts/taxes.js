@@ -4,4 +4,4 @@ const monthlyfedTaxes = .23
 
 const monthlyTaxwithheld = (annualSalary / 12) * monthlyfedTaxes
 
-console.log(`The monthly tax withheld is: $${monthlyTaxwithheld.toFixed(0)}`)
+console.log("The monthly tax withheld is: $" + monthlyTaxwithheld.toFixed(0));
